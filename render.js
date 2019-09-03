@@ -1,6 +1,7 @@
 const save = require('instagram-save');
 
 const B = document.getElementById('download')
+const toastr = require('toastr')
 
 
 
@@ -11,12 +12,13 @@ B.addEventListener('click',()=>{
     if(insta_link==true || insta_link2==true){
         
         save(text_box_content, 'df').then(res => {
-        alert(res.file + " Download Complete")
+        toastr.success(res.file + " Download Complete")
         
   });
     }
     else{
-        alert("Address not Correct")
+        toastr.warning("Address not Correct");
+        
     }
     
     
