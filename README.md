@@ -14,4 +14,5 @@ $ npm install
 $ electron .
 
 ```
+Requirement Modules : bootstrap , Jquery , MDBootstrap , toastr
 These commands must be executed main folders ( contains : main.js , render.js & ...)
