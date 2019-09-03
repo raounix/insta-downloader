@@ -24,4 +24,4 @@ These commands must be executed main folders ( contains : main.js , render.js & 
 
 Copyright (c) CaptainPick. All rights reserved.
 
-Licensed under the [GPL v3.0](LICENSE.txt) license.
+Licensed under the [GPL v3.0](LICENSE) license.
