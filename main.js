@@ -17,7 +17,7 @@ function createWindow () {
 
 
   
-  win.loadFile('index.htm')
+  win.loadFile('index.html')
 
 
 } 
